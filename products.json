@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "email": "25ds3000156@ds.study.iitm.ac.in",
+    "version": "4ae2e1df"
+  },
+  "products": [
+    {"id":"prod-4ae2e1df-001","name":"Pro Item 1","category":"clothing","price":343.15,"stock":78,"rating":1.4},
+    {"id":"prod-4ae2e1df-002","name":"Elite Item 2","category":"electronics","price":80.65,"stock":155,"rating":3.1},
+    {"id":"prod-4ae2e1df-003","name":"Standard Item 3","category":"electronics","price":468.65,"stock":96,"rating":4},
+    {"id":"prod-4ae2e1df-004","name":"Standard Item 4","category":"books","price":374.43,"stock":160,"rating":4.2},
+    {"id":"prod-4ae2e1df-005","name":"Premium Item 5","category":"electronics","price":260.58,"stock":79,"rating":2.4},
+    {"id":"prod-4ae2e1df-006","name":"Pro Item 6","category":"books","price":16.32,"stock":142,"rating":2.8},
+    {"id":"prod-4ae2e1df-007","name":"Elite Item 7","category":"home","price":262.92,"stock":106,"rating":4.9},
+    {"id":"prod-4ae2e1df-008","name":"Elite Item 8","category":"home","price":37.35,"stock":87,"rating":1.2},
+    {"id":"prod-4ae2e1df-009","name":"Pro Item 9","category":"books","price":128.46,"stock":46,"rating":3.3},
+    {"id":"prod-4ae2e1df-010","name":"Pro Item 10","category":"books","price":341.34,"stock":135,"rating":2.6},
+    {"id":"prod-4ae2e1df-011","name":"Pro Item 11","category":"home","price":335.91,"stock":47,"rating":4.6},
+    {"id":"prod-4ae2e1df-012","name":"Elite Item 12","category":"electronics","price":463.17,"stock":6,"rating":2.5},
+    {"id":"prod-4ae2e1df-013","name":"Standard Item 13","category":"home","price":283.09,"stock":97,"rating":2.9},
+    {"id":"prod-4ae2e1df-014","name":"Basic Item 14","category":"electronics","price":87.28,"stock":40,"rating":1.4},
+    {"id":"prod-4ae2e1df-015","name":"Basic Item 15","category":"clothing","price":61.01,"stock":9,"rating":2.3},
+    {"id":"prod-4ae2e1df-016","name":"Premium Item 16","category":"sports","price":198.81,"stock":184,"rating":1.6},
+    {"id":"prod-4ae2e1df-017","name":"Standard Item 17","category":"electronics","price":224.32,"stock":138,"rating":2.4},
+    {"id":"prod-4ae2e1df-018","name":"Pro Item 18","category":"books","price":350.91,"stock":83,"rating":1.2},
+    {"id":"prod-4ae2e1df-019","name":"Pro Item 19","category":"books","price":34.74,"stock":115,"rating":4.7}
+  ],
+  "aggregations": {
+    "home": {
+      "count": 4,
+      "inventoryValue": 74366.47
+    }
+  }
+}
