@@ -1,6 +1,7 @@
 name: Cache Test
 
-on: [push]
+on:
+  push:
 
 jobs:
   build:
@@ -18,7 +19,4 @@ jobs:
           key: cache-eb74a6e
 
       - name: prime-cache-eb74a6e
-        run: |
-          echo "Cache hit? ${{ steps.cache-step.outputs.cache-hit }}"
-          mkdir -p ~/.cache-demo
-          echo "Saved at $(date)" > ~/.cache-demo/file.txt
+        run: echo "Cache hit? ${{ steps.cache-step.outputs.cache-hit }}"
